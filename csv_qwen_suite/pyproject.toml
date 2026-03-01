@@ -1,0 +1,15 @@
+[project]
+name = "csv-qwen-suite"
+version = "0.1.2"
+description = "ComfyUI custom nodes: CSV-driven prompt + seed iterator for Qwen Image Edit workflows."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name="Matt + ChatGPT"}]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
